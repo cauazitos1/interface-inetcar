@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Academia do jão" />
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <link rel="stylesheet" href="/src/style.css">
+  <title>INetCar</title>
+  <script src="/src/index.js"></script>
+</head>
+
+<body>
+  <div id="root" class="container">
+    <div class="logo-container">
+      <h1>InetCar</h1>
+    </div>
+    <h2>Login</h2>
+    <form action="/login" method="POST">
+      <label for="username">Email:</label>
+      <input type="text" id="username" name="username" placeholder="Digite seu email">
+      
+      <label for="password">Senha:</label>
+      <input type="password" id="password" name="password" placeholder="Digite sua senha">
+
+      <input type="submit" class="Entrar" value="Entrar">
+      <div class="container-auxi">
+        <a type="submit" class="Voltar" href="/public/recuperar.html">Recuperar senha</a>
+      </div>
+    </form>
+  </div>
+</body>
+
+</html>
